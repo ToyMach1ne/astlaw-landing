@@ -1,0 +1,46 @@
+// Font Sizes
+$base-font-size: 16px;
+$em-base: $base-font-size;
+$base-font-family: 'Open Sans Hebrew', sans-serif;
+$heading-font-family: $base-font-family;
+
+// font weight
+$fubold: 900; // Extra Black, Fat, Poster or Ultra Black
+$fblack: 800; // Black, Extra Bold or Heavy
+$fbold: 700; // Bold
+$fsbold: 600; // Semibold, Demibold
+$fmed: 500; //  Medium
+$fnorm: 400; //  Normal or Regular
+$flight: 300; // Book or Demi
+$fthin: 200; // 200 Light or Thin
+$fulight: 100; // 100 Extra Light or Ultra Light
+
+// Line height
+$base-line-height: 1.2;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$width: 980px;
+$footer: 50px;
+$footer_margin: $footer - 2 * $footer;
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$yellow: #ffa800;
+$dark-aqua: #3f6175;
+$gray-dark: #3e3e3e;
+$gray-light: #ddd;
+
+// Font Colors
+$base-font-color: $gray-dark;
+
+// Border
+$base-border-color: $gray-light;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);

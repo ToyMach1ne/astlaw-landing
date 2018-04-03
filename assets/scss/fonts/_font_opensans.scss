@@ -1,0 +1,46 @@
+$rb-font-path: '../fonts' !default;
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-weight: 200;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/opensanshebrew-light-webfont.eot');
+  src: local('Open Sans Hebrew Light'),
+  local('opensans-light'),
+  url('#{$rb-font-path}/robotocondensed-light.eot');
+  src: url(#{$rb-font-path}/opensanshebrew-light-webfont.eot?#iefix) format('embedded-opentype'),
+  url('#{$rb-font-path}/opensanshebrew-light-webfont.woff') format('woff'),
+  url('#{$rb-font-path}/opensanshebrew-light-webfont.ttf') format("truetype"),
+  url('#{$rb-font-path}/opensanshebrew-light-webfont.svg#open_sans_hebrewlight') format("svg");
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/opensanshebrew-regular-webfont.eot');
+  src: local('Open Sans Hebrew Light'),
+  local('opensans-normal'),
+  url('#{$rb-font-path}/opensanshebrew-regular-webfont.eot');
+  src: url(#{$rb-font-path}/opensanshebrew-regular-webfont.eot?#iefix) format('embedded-opentype'),
+  url('#{$rb-font-path}/opensanshebrew-regular-webfont.woff') format('woff'),
+  url('#{$rb-font-path}/opensanshebrew-regular-webfont.ttf') format("truetype"),
+  url('#{$rb-font-path}/opensanshebrew-regular-webfont.svg#open_sans_hebrewregular') format("svg");
+}
+
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/opensanshebrew-bold-webfont.eot');
+  src: local('Open Sans Hebrew Light'),
+  local('opensans-bold'),
+  url('#{$rb-font-path}/opensanshebrew-bold-webfont.eot');
+  src: url(#{$rb-font-path}/opensanshebrew-bold-webfont.eot?#iefix) format('embedded-opentype'),
+  url('#{$rb-font-path}/opensanshebrew-bold-webfont.woff') format('woff'),
+  url('#{$rb-font-path}/opensanshebrew-bold-webfont.ttf') format("truetype"),
+  url('#{$rb-font-path}/opensanshebrew-bold-webfont.svg#open_sans_hebrewbold') format("svg");
+}

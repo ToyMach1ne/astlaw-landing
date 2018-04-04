@@ -17,13 +17,13 @@
       <div class="container">
 
         <div class="row first__info--row">
-          <div class="col-md-10 col-sm-10 col-xs-12">
+          <div class="col-md-10 col-sm-9 col-xs-12">
             <div class="info__block--left">
               <h4 class="yellow__after"><?php the_field('first_title'); ?></h4>
               <p><?php the_field('first_undertitle'); ?></p>
             </div>
           </div>
-          <div class="col-md-2 col-sm-2 col-xs-12">
+          <div class="col-md-2 col-sm-3 col-xs-12">
               <div class="info__block--right">
                 <?php $image = get_field('about_image'); if( !empty($image) ): ?>
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
@@ -72,7 +72,7 @@
 
           <?php if( have_rows('services') ): while ( have_rows('services') ) : the_row();
           	$image = get_sub_field('service_image'); ?>
-          <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="service__item--wrap">
               <div class="service__img--wrap">
                 <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
@@ -113,7 +113,7 @@
           <h4 class="yellow__after"><?php the_field('fourth_title'); ?></h4>
 
           <?php if( have_rows('video_wrap') ): while ( have_rows('video_wrap') ) : the_row(); ?>
-	          <div class="col-md-3 video__wrap">
+	          <div class="col-md-3 col-sm-6 col-xs-12 video__wrap">
 	            <?php the_sub_field('video_item'); ?>
 	            <div class="video__descr--wrap">
 	              <h4><?php the_sub_field('video_title'); ?></h4>

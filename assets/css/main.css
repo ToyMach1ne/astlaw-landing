@@ -2799,8 +2799,8 @@ section .second__info--block .first__info--row {
 
 section .second__info--block .first__info--row .info__block--right img {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 133px;
+  height: 133px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -3023,7 +3023,7 @@ section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form
 }
 
 section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form-control-wrap:first-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 
 section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form-control-wrap input {
@@ -3031,6 +3031,7 @@ section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form
   padding: 15px;
   border-radius: 2px;
   border: 0;
+  color: #3e3e3e;
 }
 
 section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form-control-wrap input:focus {
@@ -3175,7 +3176,7 @@ footer .footer__tel--title {
   margin-bottom: 0;
 }
 
-@media (min-width: 1900px) {
+@media screen and (min-width: 1900px) {
   .container {
     width: 1470px;
     max-width: 100%;
@@ -3195,7 +3196,7 @@ footer .footer__tel--title {
   }
 }
 
-@media (max-width: 1900px) {
+@media screen and (max-width: 1900px) {
   section .second__info--block .third__info--row .third__row--inner h4 {
     font-size: 18px;
   }
@@ -3203,6 +3204,201 @@ footer .footer__tel--title {
     font-size: 16px;
   }
   section .third__services--block .service__decription--wrap .services__list li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .yellow__after:after {
+    margin-top: 20px !important;
+  }
+  section .second__info--block .second__info--row {
+    padding: 40px;
+  }
+  section .second__info--block .second__info--row:before {
+    display: none;
+  }
+  section .third__services--block .col-md-3 {
+    padding: 0 5px;
+  }
+  section .third__services--block .service__decription--wrap h4 {
+    font-size: 16px;
+  }
+  section .third__services--block .service__decription--wrap h4:after {
+    width: 24px;
+    height: 18px;
+    background-size: cover;
+  }
+  section .third__services--block .service__decription--wrap .services__list li {
+    font-size: 12px;
+  }
+  section .fourth__contact--block {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section .second__info--block .first__info--row .info__block--left p {
+    font-size: 16px;
+  }
+  section .second__info--block .second__info--row .col-md-6 p {
+    font-size: 18px;
+  }
+  section .second__info--block .third__info--row {
+    margin-bottom: 50px;
+  }
+  section .second__info--block .third__info--row .col-md-12 {
+    flex-wrap: wrap;
+  }
+  section .second__info--block .third__info--row .third__row--inner, section .second__info--block .third__info--row .third__row--inner--special {
+    width: 50%;
+    margin-bottom: 20px;
+    border-right: 24px solid #3f6175;
+  }
+  section .third__services--block .col-md-3:last-child {
+    display: none;
+  }
+  section .fourth__contact--block .contact__form--wrap {
+    padding: 25px 15px 30px 15px;
+  }
+  section .fifth__video--block {
+    margin-bottom: 50px;
+  }
+  section .fifth__video--block .video__wrap {
+    margin-bottom: 25px;
+  }
+  section .sixth__slider--block .owl-carousel .owl__text--inner {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 30px 0;
+  }
+  header .header__logo {
+    text-align: center;
+  }
+  header .header__phone--wrap {
+    display: none;
+  }
+  section .first__title--block {
+    background-position: 60% center;
+  }
+  section .first__title--block .col-md-12 .page__title {
+    font-size: 38px;
+    margin: 0;
+  }
+  section .first__title--block .col-md-12 .page__title--bars {
+    display: none;
+  }
+  section .second__info--block {
+    padding-bottom: 0;
+  }
+  section .second__info--block .first__info--row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section .second__info--block .first__info--row .info__block--right {
+    margin-bottom: 25px;
+  }
+  section .second__info--block .first__info--row .info__block--right h4, section .second__info--block .first__info--row .info__block--right p {
+    font-weight: 400;
+  }
+  section .second__info--block .first__info--row .info__block--left .yellow__after {
+    text-align: center;
+  }
+  section .second__info--block .first__info--row .info__block--left .yellow__after:after {
+    margin: 0 auto;
+  }
+  section .second__info--block .second__info--row {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  section .second__info--block .second__info--row .col-md-6 p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  section .second__info--block .third__info--row .third__row--inner, section .second__info--block .third__info--row .third__row--inner--special {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    height: 80px;
+  }
+  section .second__info--block .third__info--row .third__row--inner--special {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .second__info--block .third__info--row .third__row--inner--special img {
+    max-width: 200px;
+  }
+  section .third__services--block .col-md-3 {
+    margin-bottom: 25px;
+  }
+  section .third__services--block .col-md-3:last-child {
+    display: block;
+  }
+  section .third__services--block .service__decription--wrap h4 {
+    font-size: 22px;
+  }
+  section .third__services--block .service__decription--wrap h4:after {
+    width: 34px;
+    height: 26px;
+  }
+  section .third__services--block .service__decription--wrap .services__list li {
+    font-size: 16px;
+  }
+  section .fourth__contact--block {
+    height: auto;
+    padding: 30px 0;
+    background-position: center;
+  }
+  section .fourth__contact--block .contact__form--wrap h4 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  section .fourth__contact--block .contact__form--wrap form .form-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form-control-wrap {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-form-control-wrap:first-child {
+    margin-right: 0;
+  }
+  section .fourth__contact--block .contact__form--wrap form .form-body .wpcf7-submit {
+    max-width: 300px;
+    margin: 0;
+  }
+  section .fifth__video--block {
+    padding-top: 50px;
+    margin-bottom: 25px;
+  }
+  section .sixth__slider--block .owl-carousel .owl__text--inner .owl__inner--main, section .sixth__slider--block .owl-carousel .owl__text--inner .owl__inner--title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section .second__info--block .first__info--row .info__block--left p {
+    text-align: center;
+  }
+  section .second__info--block .second__info--row {
+    padding: 15px;
+  }
+  section .third__services--block .col-md-3 {
+    padding: 0 15px;
+  }
+  section .fourth__contact--block .yellow__after {
+    font-size: 28px;
+  }
+  section .fourth__contact--block .sixth__slider--block .owl-carousel .owl__text--inner .owl__inner--main, section .fourth__contact--block .sixth__slider--block .owl-carousel .owl__text--inner .owl__inner--title {
     font-size: 14px;
   }
 }
